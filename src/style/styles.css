@@ -58,11 +58,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-#content {
+body {
   position: relative;
   background-attachment: fixed; /* faz a bgImage para de mover ao clicar nos botões */
   background-image: url("../assets/bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3rem;
 }

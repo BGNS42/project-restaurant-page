@@ -2,8 +2,9 @@ import "./style/styles.css";
 import { plate } from "./components/plates.js";
 import { pageLoad } from "./components/pageLoad.js";
 //import testeImg from "./assets/teste.png";
-import { home } from "./components/home.js";
-import { contact } from "./components/contact.js";
+import { home } from "./pages/home.js";
+import { contact } from "./pages/contact.js";
+import { menu } from "./pages/menu.js";
 
 console.log(plate);
 
