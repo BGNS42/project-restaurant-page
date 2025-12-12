@@ -1,0 +1,1 @@
+export const plate = "hello, i'm a plate";
