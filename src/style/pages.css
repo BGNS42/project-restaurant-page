@@ -1,15 +1,16 @@
 .containerTxt {
-    position: relative;
+    /* position: relative; */
     z-index: 2;
     padding: 20px;
-    margin: 2rem 5rem;
-    background-color: rgb(255, 255, 0);
-    opacity: 80%;
-    border-radius: 8px;
+    margin: 2rem auto;
+    background-color: rgba(243, 197, 175, 0.719);
+    opacity: 100%;
+    border-radius: 10px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    width: clamp(5rem, 70vw, 50rem);
 }
 
 .containerTxt h1,

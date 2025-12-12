@@ -1,4 +1,4 @@
-import "../style/home.css";
+import "../style/pages.css";
 
 const home = document.createElement("div");
 home.classList = "home";

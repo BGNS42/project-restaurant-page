@@ -2,7 +2,7 @@
 
 function pageLoad(item) {
     const content = document.querySelector("#content");
-
+    content.innerHTML = "";
     content.appendChild(item);
 }
 
