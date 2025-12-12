@@ -1,3 +1,6 @@
+// Create a "div" element with items needed to populate the Menu section
+// Inform product name, price and text that will appear on DOM
+
 export class MenuItem {
     constructor(name, price, text) {
     this.name = name;

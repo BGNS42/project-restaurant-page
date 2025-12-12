@@ -1,12 +1,10 @@
 import "./style/styles.css";
-import { plate } from "./components/plates.js";
 import { pageLoad } from "./components/pageLoad.js";
-//import testeImg from "./assets/teste.png";
 import { home } from "./pages/home.js";
 import { contact } from "./pages/contact.js";
 import { menu } from "./pages/menu.js";
 
-console.log(plate);
+pageLoad(home);
 
 const buttons = document.querySelectorAll("button");
 
@@ -28,5 +26,3 @@ buttons.forEach(button => {
         };
     });
 });
-
-pageLoad(home);
